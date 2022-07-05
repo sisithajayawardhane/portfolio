@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testProject_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sisitha Jayawardhane" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOr-CA-Uqb">
+                                <rect key="frame" x="39" y="44" width="336" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="60701192_1288151294684065_142842730999971840_o" translatesAutoresizingMaskIntoConstraints="NO" id="je7-R8-zlh" userLabel="profilePic">
+                                <rect key="frame" x="-333" y="154" width="1080" height="292"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="292" id="7vw-Rm-rTh"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRT-r3-Unz">
+                                <rect key="frame" x="68" y="548.5" width="111" height="80"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                <color key="tintColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.56862745098039214" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="About me" backgroundImage="capsule.fill" catalog="system">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="AboutMEbtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gPY-mG-Iyy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uY-Ps-FAg">
+                                <rect key="frame" x="245" y="548.5" width="111" height="81.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="o5q-Xt-zvM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="10"/>
+                                <color key="tintColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.56862745098039214" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Day in the Life" backgroundImage="capsule.fill" catalog="system">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="DayInTheLifeBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jBy-tE-kx6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sem-Ih-3sU">
+                                <rect key="frame" x="245" y="674.5" width="111" height="81.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="Db3-J7-4hr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="13"/>
+                                <color key="tintColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.56862745098039214" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Favourites" backgroundImage="capsule.fill" catalog="system">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="FavouritesBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bg1-bx-GvU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zci-6N-keV">
+                                <rect key="frame" x="68" y="674.5" width="111" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="111" id="keC-ug-sXG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="10"/>
+                                <color key="tintColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.56862745098039214" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="When I grow up" backgroundImage="capsule.fill" catalog="system">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="WhenIgrowUPbtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qs2-80-eXJ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lUX-Mu-ZQd" userLabel="AboutMEview">
+                                <rect key="frame" x="-333" y="0.0" width="1080" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="okj-aq-jhT">
+                                        <rect key="frame" x="0.0" y="62" width="1080" height="60"/>
+                                        <color key="backgroundColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.56862745098039214" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="EtH-hw-F0C"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AHe-dm-k9S">
+                                        <rect key="frame" x="332" y="183" width="415" height="432"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <string key="text"># My name is Sisitha jayawardhane.  # I'm a beginner to IOS Development  # I love to play Cricket and Watching movies.  # I'm looking for an internship related to IOS development  Location: Chilaw, Sri lanaka Website: www.s.com</string>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lS-KG-15l" userLabel="BackButton">
+                                        <rect key="frame" x="350" y="81" width="26" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" image="arrowshape.turn.up.left.2.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="BackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i5K-yS-AvB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="okj-aq-jhT" firstAttribute="top" secondItem="lUX-Mu-ZQd" secondAttribute="top" constant="62" id="Fc3-SC-wRw"/>
+                                    <constraint firstItem="okj-aq-jhT" firstAttribute="leading" secondItem="lUX-Mu-ZQd" secondAttribute="leading" id="a1Q-DI-ugJ"/>
+                                    <constraint firstItem="okj-aq-jhT" firstAttribute="centerX" secondItem="lUX-Mu-ZQd" secondAttribute="centerX" id="meO-Gd-Bqx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0rk-RC-7dI" userLabel="WhenIgrowUPview">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When I Grow Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4m-Nq-LMw">
+                                        <rect key="frame" x="0.0" y="74" width="414" height="76"/>
+                                        <color key="backgroundColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.56862745098039214" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="76" id="Rfh-KQ-Czc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="34"/>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pLP-1L-onQ">
+                                        <rect key="frame" x="0.0" y="188" width="414" height="336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <string key="text">“I want to sail around the world, spend time in new countries,
+learn new Technologies, and meet awesome people everywhere I go.
+”</string>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCG-wz-31w" userLabel="BackButton">
+                                        <rect key="frame" x="8" y="101" width="26" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" image="arrowshape.turn.up.left.2.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="BackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S3h-Kw-MFe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="W4m-Nq-LMw" firstAttribute="leading" secondItem="0rk-RC-7dI" secondAttribute="leading" id="1cJ-vK-CrR"/>
+                                    <constraint firstItem="W4m-Nq-LMw" firstAttribute="top" secondItem="0rk-RC-7dI" secondAttribute="top" constant="74" id="VNg-iT-eiB"/>
+                                    <constraint firstItem="W4m-Nq-LMw" firstAttribute="centerX" secondItem="0rk-RC-7dI" secondAttribute="centerX" id="xtX-j3-p7M"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOw-5d-YJm" userLabel="DayInTheLife">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day in the Life" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grA-tM-NJL">
+                                        <rect key="frame" x="0.0" y="52" width="414" height="72"/>
+                                        <color key="backgroundColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.56862745098039214" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="72" id="2RS-Fb-JNg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="In this quarantine period " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hkB-yi-k8c">
+                                        <rect key="frame" x="0.0" y="176" width="168" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SMB-g9-ZJE">
+                                        <rect key="frame" x="0.0" y="216" width="414" height="455"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <string key="text"># Wake up @ 6.00 a.m # Take Breakfast @ 7.00 a.m # Get Back to work @ 8.00 a.m  { Swift tutorials, IOS development, Motivational stories }  # Tea break @ 11.00 a.m # Take lunch @ 1.00 a.m # Tea break @ 5.00 p.m # Take Dinner @ 9.00 p.m # Get to Sleep @ 12.00 a.m </string>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifs-Rz-LqC" userLabel="BackButton">
+                                        <rect key="frame" x="8" y="77" width="26" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" image="arrowshape.turn.up.left.2.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="BackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fNR-Eb-ckU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="grA-tM-NJL" firstAttribute="top" secondItem="qOw-5d-YJm" secondAttribute="topMargin" id="HIM-cZ-hCX"/>
+                                    <constraint firstItem="grA-tM-NJL" firstAttribute="leading" secondItem="qOw-5d-YJm" secondAttribute="leading" id="ioT-gz-zRS"/>
+                                    <constraint firstItem="grA-tM-NJL" firstAttribute="centerX" secondItem="qOw-5d-YJm" secondAttribute="centerX" id="zhy-gf-3VB"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pkb-xy-agC" userLabel="FavouritesView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="890"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favourites" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndt-V8-EUN">
+                                        <rect key="frame" x="0.0" y="64" width="414" height="77"/>
+                                        <color key="backgroundColor" red="0.15686274509803921" green="0.40000000000000002" blue="0.56862745098039214" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="77" id="ZCw-Fi-VZd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ipd-OG-FKs">
+                                        <rect key="frame" x="0.0" y="185" width="414" height="414"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <string key="text"># Food: Rice and Curry (Pol Sambal with Dry fish) # Drink: Ice coffee # Sport: Cricket # Actor: Tom Hanks # Actress: Helena Bonham Carter </string>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsP-MK-h9c" userLabel="BackButton">
+                                        <rect key="frame" x="17" y="91" width="26" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <state key="normal" image="arrowshape.turn.up.left.2.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="BackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eOW-Y4-MMl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="ndt-V8-EUN" firstAttribute="leading" secondItem="Pkb-xy-agC" secondAttribute="leading" id="5Ze-WI-X5B"/>
+                                    <constraint firstItem="ndt-V8-EUN" firstAttribute="top" secondItem="Pkb-xy-agC" secondAttribute="top" constant="64" id="xGj-WA-bll"/>
+                                    <constraint firstItem="ndt-V8-EUN" firstAttribute="centerX" secondItem="Pkb-xy-agC" secondAttribute="centerX" id="z9b-zQ-dqy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="je7-R8-zlh" firstAttribute="top" secondItem="zOr-CA-Uqb" secondAttribute="bottom" constant="38" id="1JY-Vp-pNz"/>
+                            <constraint firstItem="Zci-6N-keV" firstAttribute="firstBaseline" secondItem="Sem-Ih-3sU" secondAttribute="baseline" id="2Ll-BH-htx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sem-Ih-3sU" secondAttribute="bottom" constant="105" id="41E-ck-tXL"/>
+                            <constraint firstItem="lUX-Mu-ZQd" firstAttribute="leading" secondItem="je7-R8-zlh" secondAttribute="leading" id="45M-Eh-muZ"/>
+                            <constraint firstItem="0rk-RC-7dI" firstAttribute="bottom" secondItem="qOw-5d-YJm" secondAttribute="bottom" id="4iF-h0-cSy"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Pkb-xy-agC" secondAttribute="bottom" constant="-28" id="5If-0K-w8V"/>
+                            <constraint firstItem="qOw-5d-YJm" firstAttribute="bottom" secondItem="lUX-Mu-ZQd" secondAttribute="bottom" id="7Oe-R3-CyD"/>
+                            <constraint firstItem="zOr-CA-Uqb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="806-hL-XGs"/>
+                            <constraint firstItem="Pkb-xy-agC" firstAttribute="top" secondItem="0rk-RC-7dI" secondAttribute="top" id="B9v-bL-3Cf"/>
+                            <constraint firstItem="4uY-Ps-FAg" firstAttribute="leading" secondItem="Sem-Ih-3sU" secondAttribute="leading" id="C7Y-pe-Kxv"/>
+                            <constraint firstItem="Sem-Ih-3sU" firstAttribute="leading" secondItem="Zci-6N-keV" secondAttribute="trailing" constant="66" id="EJm-PD-t2f"/>
+                            <constraint firstItem="Pkb-xy-agC" firstAttribute="trailing" secondItem="0rk-RC-7dI" secondAttribute="trailing" id="GLv-tW-jKr"/>
+                            <constraint firstItem="0rk-RC-7dI" firstAttribute="trailing" secondItem="qOw-5d-YJm" secondAttribute="trailing" id="Kap-hy-W6A"/>
+                            <constraint firstItem="zOr-CA-Uqb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ne4-kZ-uAB"/>
+                            <constraint firstItem="MRT-r3-Unz" firstAttribute="firstBaseline" secondItem="4uY-Ps-FAg" secondAttribute="baseline" id="Pgu-if-T6b"/>
+                            <constraint firstItem="qOw-5d-YJm" firstAttribute="centerX" secondItem="zOr-CA-Uqb" secondAttribute="centerX" id="SB4-iW-a0o"/>
+                            <constraint firstItem="0rk-RC-7dI" firstAttribute="top" secondItem="qOw-5d-YJm" secondAttribute="top" id="TB7-hV-l2G"/>
+                            <constraint firstItem="4uY-Ps-FAg" firstAttribute="trailing" secondItem="Sem-Ih-3sU" secondAttribute="trailing" id="Tch-z1-rN9"/>
+                            <constraint firstItem="Sem-Ih-3sU" firstAttribute="top" secondItem="4uY-Ps-FAg" secondAttribute="bottom" constant="43" id="Vsv-id-4BL"/>
+                            <constraint firstItem="qOw-5d-YJm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xfv-Yt-mSy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sem-Ih-3sU" secondAttribute="trailing" constant="58" id="dAg-MA-Z5I"/>
+                            <constraint firstItem="Pkb-xy-agC" firstAttribute="leading" secondItem="0rk-RC-7dI" secondAttribute="leading" id="eRl-Rq-TIv"/>
+                            <constraint firstItem="je7-R8-zlh" firstAttribute="centerX" secondItem="zOr-CA-Uqb" secondAttribute="centerX" id="kR9-PH-wDt"/>
+                            <constraint firstItem="lUX-Mu-ZQd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="klg-D9-Dl4"/>
+                            <constraint firstItem="qOw-5d-YJm" firstAttribute="top" secondItem="lUX-Mu-ZQd" secondAttribute="top" id="lRN-H5-39R"/>
+                            <constraint firstItem="Zci-6N-keV" firstAttribute="leading" secondItem="MRT-r3-Unz" secondAttribute="leading" id="ncP-ch-GHR"/>
+                            <constraint firstItem="Zci-6N-keV" firstAttribute="top" secondItem="Sem-Ih-3sU" secondAttribute="top" id="nrZ-Vu-yiQ"/>
+                            <constraint firstItem="lUX-Mu-ZQd" firstAttribute="trailing" secondItem="je7-R8-zlh" secondAttribute="trailing" id="ojG-ob-Grn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zOr-CA-Uqb" secondAttribute="bottom" constant="746" id="pFn-77-hY4"/>
+                            <constraint firstItem="MRT-r3-Unz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="pyg-jr-mAg"/>
+                            <constraint firstItem="MRT-r3-Unz" firstAttribute="top" secondItem="4uY-Ps-FAg" secondAttribute="top" id="qEJ-34-Hnj"/>
+                            <constraint firstItem="lUX-Mu-ZQd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="qEQ-xz-sKQ"/>
+                            <constraint firstItem="0rk-RC-7dI" firstAttribute="leading" secondItem="qOw-5d-YJm" secondAttribute="leading" id="vRy-uu-B69"/>
+                            <constraint firstItem="Zci-6N-keV" firstAttribute="trailing" secondItem="MRT-r3-Unz" secondAttribute="trailing" id="y83-PV-BTf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="AboutMEview" destination="lUX-Mu-ZQd" id="ozC-Lg-qHj"/>
+                        <outlet property="DayInTheLifeView" destination="qOw-5d-YJm" id="xMb-WT-Zkd"/>
+                        <outlet property="FavouritesView" destination="Pkb-xy-agC" id="CMW-kr-0ky"/>
+                        <outlet property="WhenIgrowUPview" destination="0rk-RC-7dI" id="5JC-cz-ZYu"/>
+                        <outlet property="profilePic" destination="je7-R8-zlh" id="nIl-O1-yBV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="60701192_1288151294684065_142842730999971840_o" width="1080" height="1092"/>
+        <image name="arrowshape.turn.up.left.2.fill" catalog="system" width="64" height="42"/>
+        <image name="capsule.fill" catalog="system" width="64" height="46"/>
+    </resources>
+</document>
